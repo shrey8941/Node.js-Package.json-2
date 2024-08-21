@@ -1,7 +1,12 @@
 const lib = require('./lib.js')
+const express = require('express')
+
+const server = express()
+server.listen(8080)
 
 console.log(lib.diff(5,7),lib.sum(3,6))
 
+console.log("shrey")
 
 // Readwrite module
 
